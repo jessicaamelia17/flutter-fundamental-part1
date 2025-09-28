@@ -124,3 +124,22 @@ Lakukan push juga untuk semua file lainnya dengan pilih Stage All Changes. Beri 
 Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
 ![Langkah11](images/27.png)
 
+---
+
+## Praktikum 4: Menerapkan Widget Dasar
+
+### Langkah 1: Text Widget
+Buat folder baru basic_widgets di dalam folder lib. Kemudian buat file baru di dalam basic_widgets dengan nama text_widget.dart. Ketik atau salin kode program berikut ke project hello_world Anda pada file text_widget.dart.
+![Langkah1](images/30.png)
+Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
+![Langkah 1](images/28.png)
+
+---
+
+### Langkah 2: Image Widget
+Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
+![Langkah2](images/31.png)
+Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
+![Langkah2](images/32.png)
+Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
+![Langkah2](images/29.png)
