@@ -38,3 +38,35 @@ Akan muncul pesan **"Your Flutter Project is ready!"** yang menandakan project b
 ![Langkah 4](images/04.png)
 
 ---
+## Praktikum 2: Menghubungkan Perangkat Android atau Emulator
+
+### Langkah 1
+Mengaktifkan proses debug USB dan Menginstall Driver USB Google
+![Langkah1](images/05.png)
+![Langkah1](images/06.jpg)
+
+---
+
+### Langkah 2
+Sambungkan perangkat Android ke komputer menggunakan kabel USB
+![Langkah2](images/08.jpg)
+
+---
+
+### Langkah 3
+Menjalankan aplikasi dari Android Studio di perangkat Android Menggunakan kabel USB
+![Langkah3](images/09.png)
+![Langkah3](images/07.jpg)
+![Langkah3](images/10.jpg)
+
+---
+
+### Langkah 4
+Langkah 4: Menjalankan aplikasi di perangkat Android menggunakan Wi-Fi dengan menghubungkan perangkat Android dan komputer ke jaringan nirkabel yang sama
+![Langkah4.1](images/12.jpg)
+![Langkah4.2](images/11.png)
+![Langkah4.3](images/13.jpg)
+![Langkah4.4](images/14.png)
+![Langkah4.5](images/15.jpg)
+
+---
