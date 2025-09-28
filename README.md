@@ -70,3 +70,57 @@ Langkah 4: Menjalankan aplikasi di perangkat Android menggunakan Wi-Fi dengan me
 ![Langkah4.5](images/15.jpg)
 
 ---
+
+## Praktikum 3: Membuat Repository GitHub dan Laporan Praktikum
+
+### Langkah 1
+Login ke akun GitHub Anda, lalu buat repository baru dengan nama "flutter-fundamental-part1"
+![Langkah1](images/16.png)
+
+---
+
+### Langkah 2
+Lalu klik tombol "Create repository" lalu akan tampil seperti gambar berikut.
+![Langkah2](images/17.png)
+
+
+---
+
+### Langkah 3
+Kembali ke VS code, project flutter hello_world, buka terminal pada menu Terminal > New Terminal. Lalu ketik perintah berikut untuk inisialisasi git pada project Anda.
+![Langkah3](images/18.png)
+
+---
+
+### Langkah 4, Langkah 5, dan Langkah 6
+Pilih menu Source Control di bagian kiri, lalu lakukan stages (+) pada file .gitignore untuk mengunggah file pertama ke repository GitHub.
+![Langkah4](images/19.png)
+Beri pesan commit "tambah gitignore" lalu klik Commit (✔)
+![Langkah5](images/20.png)
+Lakukan push dengan klik bagian menu titik tiga > Push
+![Langkah6](images/21.png)
+
+---
+
+### Langkah 7 dan Langkah 8
+Di pojok kanan bawah akan tampil seperti gambar berikut. Klik "Add Remote"
+![Langkah7](images/22.png)
+Salin tautan repository Anda dari browser ke bagian ini, lalu klik Add remote
+![Langkah8](images/23.png)
+Setelah berhasil, tulis remote name dengan "origin"
+![Langkah8](images/24.png)
+
+---
+
+### Langkah 9 dan Langkah 10
+Lakukan hal yang sama pada file README.md mulai dari Langkah 4. Setelah berhasil melakukan push, masukkan username GitHub Anda dan password berupa token yang telah dibuat (pengganti password konvensional ketika Anda login di browser GitHub). Reload halaman repository GitHub Anda, maka akan tampil hasil push kedua file tersebut seperti gambar berikut.
+![Langkah9](images/25.png)
+Lakukan push juga untuk semua file lainnya dengan pilih Stage All Changes. Beri pesan commit "project hello_world". Maka akan tampil di repository GitHub Anda seperti berikut.
+![Langkah10](images/26.png)
+
+---
+
+### Langkah 11 dan Langkah 12
+Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
+![Langkah11](images/27.png)
+
